@@ -1,6 +1,6 @@
 const factorialCalc = ( number ) => {
     let factorial = 1;
-    for ( count = number; count >= 1; count --) {
+    for ( let count = number; count >= 1; count --) {
         factorial *= number;
         number--;
     }

@@ -1,9 +1,6 @@
 const sumOfArray = ( array ) => {
-    let sum = 0;
-    for ( number of array ) {
-        sum += number;
-    }
-    console.log(`challenge 3: ${sum}`);
+    let sum = array.reduce((acc, curr)=>acc+curr, 0)
+    console.log(sum);
     
 }
 

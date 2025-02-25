@@ -1,12 +1,10 @@
 const vowelCounter = ( string ) => {
-
     let vowelCounter = 0;
+    let vowels = ['a','e','i','o','u'];
     for ( let letter of string ) {
-        if ( letter === `a` || letter === `e` || letter === `i` || letter === `o` || letter === `u` ) {
-            vowelCounter += 1;
-        }
+        if (vowels.includes(letter)) vowelCounter++
     }
-    console.log(`challenge 1: ${vowelCounter}`);
+    console.log(vowelCounter);
 }
 
 vowelCounter(`bcdfghjklmnpqrstvwxyz`);

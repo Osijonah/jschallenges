@@ -4,7 +4,7 @@ const reverseString = ( string ) => {
     for ( let letter of cleanString ) {
         newString = letter + cleanString;
     }
-    console.log(`challenge 5: ${newString}`);
+    console.log(newString);
     
 }
 
